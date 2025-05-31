@@ -142,3 +142,72 @@ body{
     font-size:20px ;
 }
 
+/* CONTENT-BOX */
+
+.content-box{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.img-half{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.shoe-img{
+    height: 60%;
+    width: 80%;
+    
+    margin-top: 70px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.shoe-img img{
+    height: 100%;
+    filter: drop-shadow(0 12px  15px red);
+    transition: 0.3s;
+
+    &:hover{
+        height: 102%;
+    }
+} 
+
+
+.shoe-size{
+    height: 50px;
+    width: 60%;
+    margin-top:50px;
+    margin-left: 10px;
+}
+
+
+.shoe-size p{
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.num{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.num .size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    border: 2px solid purple;
+    border-radius: 5px;
+    background-color: rgb(248, 219, 248);
+    font-weight: bold;
+}
