@@ -8,6 +8,8 @@ body{
     background: linear-gradient(to right, whitesmoke,rgb(250, 187, 198));
 }
 
+/* TEXT-SCROLL */
+
 .txt-scroll{
     height: 30px;
     width: 100%;
@@ -60,3 +62,83 @@ body{
     }
     
 }
+
+/* CREATING A MENU BAR */
+
+.navbar{
+    margin-top: 15px;
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.first-half{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+.logo-rcos{
+    color: white;
+    font-size: 25px;
+}
+
+.nav-links{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.second-half{
+    height: 100%;
+    width: 40%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.second-half input{
+    height: 45%;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-left: 9px;
+    font-size: 15px;
+}
+
+.second-half input::placeholder{
+    color: white;
+}
+
+.cart-logo{
+    display: flex;
+    height: 100%;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.cart-logo .cartlogo{
+    color: white;
+    font-size:20px ;
+}
+
